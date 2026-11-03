@@ -240,7 +240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 15742036}
   m_Layer: 0
-  m_Name: bridge
+  m_Name: Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -645,7 +645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 66137676}
   m_Layer: 0
-  m_Name: spawnpoint
+  m_Name: Player Spawn Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1500,7 +1500,7 @@ GameObject:
   m_Component:
   - component: {fileID: 242747279}
   m_Layer: 0
-  m_Name: Obstacle
+  m_Name: Obstacles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2015,7 +2015,7 @@ GameObject:
   m_Component:
   - component: {fileID: 375210193}
   m_Layer: 0
-  m_Name: decoration
+  m_Name: Decorations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2176,7 +2176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 395726422}
   m_Layer: 0
-  m_Name: bariels
+  m_Name: Barriers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2431,7 +2431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 483698471}
   m_Layer: 0
-  m_Name: Geometry
+  m_Name: Course Geometry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2845,7 +2845,7 @@ GameObject:
   m_Component:
   - component: {fileID: 572502588}
   m_Layer: 0
-  m_Name: Geometry
+  m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2907,7 +2907,7 @@ GameObject:
   m_Component:
   - component: {fileID: 593335957}
   m_Layer: 0
-  m_Name: coins
+  m_Name: Coins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4012,7 +4012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 747292069}
   m_Layer: 0
-  m_Name: decoration
+  m_Name: Decorations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4067,7 +4067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 749575691}
   m_Layer: 0
-  m_Name: Front house
+  m_Name: Front House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4241,7 +4241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 787693737}
   m_Layer: 0
-  m_Name: spawnpoint
+  m_Name: Level Markers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5940,7 +5940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1109015937}
   m_Layer: 0
-  m_Name: side to side
+  m_Name: Side-to-Side Obstacles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6694,7 +6694,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1293060180}
   m_Layer: 0
-  m_Name: name
+  m_Name: Bridge Segments
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7122,7 +7122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1422494916}
   m_Layer: 0
-  m_Name: fence
+  m_Name: Fence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7687,7 +7687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1521767564}
   m_Layer: 0
-  m_Name: ground
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9476,7 +9476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1941015661}
   m_Layer: 0
-  m_Name: 'format '
+  m_Name: Finish Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

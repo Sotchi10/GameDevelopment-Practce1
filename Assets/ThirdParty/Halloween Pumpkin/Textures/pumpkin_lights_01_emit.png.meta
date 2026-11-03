@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 86a257535fac3af4b81281b3d6763788
+guid: 47b2eff22977f1f4988bd2bc015d31be
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -7,7 +7,7 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-    sRGBTexture: 0
+    sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -52,7 +52,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 1
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -111,5 +111,5 @@ AssetOrigin:
   productId: 153723
   packageName: Halloween Pumpkin Lantern
   packageVersion: 1.1
-  assetPath: Assets/Halloween Pumpkin/Textures/pumpkin_lights_01_nm.png
+  assetPath: Assets/ThirdParty/Halloween Pumpkin/Textures/pumpkin_lights_01_emit.png
   uploadId: 425243

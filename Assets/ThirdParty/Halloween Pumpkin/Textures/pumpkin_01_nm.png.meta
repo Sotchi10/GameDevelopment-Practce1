@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 9d9719f52bc739f4798d7da5a6235d70
+guid: dae8b3031f9ff744ca51462dfc5b8e07
 TextureImporter:
-  internalIDToNameTable: []
+  fileIDToRecycleName: {}
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-    sRGBTexture: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -23,7 +23,6 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -52,18 +51,14 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 1
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  ignorePngGamma: 0
-  applyGammaDecoding: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
     resizeAlgorithm: 0
@@ -74,8 +69,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 2
     buildTarget: Standalone
     maxTextureSize: 4096
     resizeAlgorithm: 0
@@ -86,7 +80,6 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -94,12 +87,10 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
-    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
@@ -111,5 +102,5 @@ AssetOrigin:
   productId: 153723
   packageName: Halloween Pumpkin Lantern
   packageVersion: 1.1
-  assetPath: Assets/Halloween Pumpkin/Textures/pumpkin_lights_01_rgh.png
+  assetPath: Assets/ThirdParty/Halloween Pumpkin/Textures/pumpkin_01_nm.png
   uploadId: 425243

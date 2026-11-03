@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c8c2fdfb34c07844f88c188359543c35
+guid: 655d39de35cb42146a8147aa9e84a62a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -111,5 +111,5 @@ AssetOrigin:
   productId: 153723
   packageName: Halloween Pumpkin Lantern
   packageVersion: 1.1
-  assetPath: Assets/Halloween Pumpkin/Textures/pumpkin_lights_01_ao.png
+  assetPath: Assets/ThirdParty/Halloween Pumpkin/Textures/pumpkin_lights_01.png
   uploadId: 425243
