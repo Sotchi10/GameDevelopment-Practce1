@@ -9,6 +9,7 @@ namespace GameDevelopmentPractice.Player
         [Header("Movement")]
         [SerializeField, Min(0f)] private float movementSpeed = 6f;
         [SerializeField, Min(0f)] private float jumpHeight = 2f;
+        [SerializeField] private Transform movementCamera;
 
         private CharacterController characterController;
         private float verticalVelocity;
@@ -49,7 +50,23 @@ namespace GameDevelopmentPractice.Player
                 verticalInput += 1f;
             }
 
-            Vector3 moveDirection = new Vector3(horizontalInput, 0f, verticalInput).normalized;
+            Vector3 moveDirection = Vector3.zero;
+
+            if (movementCamera != null)
+            {
+                Vector3 cameraForward = Vector3.ProjectOnPlane(
+                    movementCamera.forward,
+                    Vector3.up
+                ).normalized;
+                Vector3 cameraRight = Vector3.ProjectOnPlane(
+                    movementCamera.right,
+                    Vector3.up
+                ).normalized;
+
+                moveDirection = (
+                    cameraRight * horizontalInput + cameraForward * verticalInput
+                ).normalized;
+            }
 
             if (moveDirection != Vector3.zero)
             {
